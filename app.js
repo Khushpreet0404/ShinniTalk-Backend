@@ -16,7 +16,7 @@ dotenv.config();
 //middlewares:
 app.use(
   cors({
-    origin: ["http://localhost:5173", "http://localhost:5174","https://shinni-talk-frontend.vercel.app/signin"],
+    origin: ["http://localhost:5173", "http://localhost:5174","shinni-talk-frontend.vercel.app"],
     credentials: true,
   }),
 );
